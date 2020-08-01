@@ -43,7 +43,7 @@ spring:
     data: classpath*:db/mydb-data.sql
     # Initialize the datasource with available DDL and DML scripts.
     initialization-mode: always
-    continue-on-error: false
+    continue-on-error: true
     #data-password:
     #data-username:
     #schema-password:
