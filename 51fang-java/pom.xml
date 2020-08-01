@@ -8,10 +8,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.mycat</groupId>
-	<artifactId>mycat-web</artifactId>
+	<artifactId>51fang</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Myweb</name>
-	<description>Mycat Web</description>
+	<name>51fang</name>
+	<description>51fang</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
