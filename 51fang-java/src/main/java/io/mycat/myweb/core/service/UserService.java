@@ -1,4 +1,5 @@
 package io.mycat.myweb.core.service;
+import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,5 +17,9 @@ public class UserService {
 
     public Optional<User> findUserById(long userId) {
         return userDao.findById(userId);
+    }
+
+    public Iterable<User> findAll(){
+        return userDao.findAll();
     }
 }
